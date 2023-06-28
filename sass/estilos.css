@@ -1,0 +1,55 @@
+.backgroundGris {
+  background-color: rgb(233, 233, 233);
+}
+.backgroundGris h1 {
+  color: #FF4E00;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 40pt;
+  text-align: center;
+}
+.backgroundGris .textoDescriptivo {
+  color: rgb(0, 0, 0);
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  font-size: 12pt;
+}
+
+.backgroundNar {
+  background-color: rgb(255, 77, 0);
+}
+
+.titularBlan h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 40pt;
+  text-align: center;
+}
+
+.textoDescriptivoBlan {
+  color: rgb(255, 255, 255);
+  font-family: "Fira Sans", sans-serif;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.titularWeb {
+  color: rgb(255, 255, 255);
+  font-family: "Fira Sans", sans-serif;
+  font-size: 30pt;
+  text-align: center;
+}
+
+footer div {
+  background-color: rgb(201, 201, 201);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 0px;
+}
+footer div p {
+  color: #ffffff;
+}
+footer div img {
+  width: 50px;
+}/*# sourceMappingURL=estilos.css.map */
