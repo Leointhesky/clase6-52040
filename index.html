@@ -5,29 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Butters Studio: Agencia creativa, de Diseño y Publicidad.
+    Experiencia en diseño, branding, packaging, marketing offline, marketing online, endomarketing y mucho más. ¡Le damos valor a tu marca!
+    ">
+    <meta name="keywords"
+        content="diseño, estudio, publicidad, creatividad, marketing, packaging, tipografias, web, audiovisual, videos, fotos, arquitectura, asesoramiento, presupuestos, rapidez, calidad, dedicación, E-commerce">
+
+    <title>Estudio de Diseño Butters</title>
     <!--BS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!--CSS-->
-    <link rel="stylesheet" href="sass/estilos.css">
-    <title>Butters Studio</title>
+    <link rel="stylesheet" href="estilocss/estilos.css">
+    <!--AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <!--HEADER O CABECERA-->
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary row">
-        <div class="container flex">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed top">
+        <div class="container">
             <a class="navbar-brand" href="#"><img src="medios/logo_butters.svg" alt="Logo Butters Studio"
                     width="150px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="page/servicios.html"> Servicios</a>
+                        <a class="nav-link" aria-current="page" href="page/servicios.html"> Servicios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="page/proyectos.html"> Proyectos</a>
@@ -58,13 +67,12 @@
                                 y desarrollo de sitios web, y el diseño gráfico en todas sus variantes (branding,
                                 identidad, editorial, memorias corporativas). Tenemos amplia experiencia en el
                                 desarrollo de aplicaciones web, y en el trabajo colaborativo con profesionales de
-                                disciplinas tecnológicas donde hemos liderado proyectos de alta complejidad. Nuestro
-                                trabajo tiene acento en la calidad, el detalle y el buen gusto.
+                                disciplinas tecnológicas donde hemos liderado proyectos de alta complejidad.
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-12">
-                        <img style="width: 100%; padding: 20px;" src="medios/imagen1.jpg" alt="">
+                    <div data-aos="fade-up" data-aos-duration="2000" class="col-lg-8 col-12">
+                        <img style="width: 100%; padding: 20px;" src="medios/imagen1.jpg" alt="foto producto de diseño">
                     </div>
                 </div>
             </div>
@@ -74,7 +82,7 @@
     <!--SERVICIOS-->
 
     <main class="backgroundNar">
-        <section>
+        <section data-aos="fade-up" data-aos-duration="2000">
             <div class="container">
                 <div class="main row">
                     <div class="align-self-center col-lg-12 col-12">
@@ -84,30 +92,33 @@
                         <div class="textoDescriptivoBlan">
                             <p>Somos una empresa, dedicada a satisfacer las necesidades a nivel Digital y Tecnológico,
                                 nuestro objetivo es agregar
-                                valor y exposición creativa en cada uno de nuestros trabajo cumpleindo nuestras metas.
+                                valor y exposición creativa en cada uno de nuestros trabajo cumpliendo nuestras metas.
                             </p>
                         </div>
                     </div>
         </section>
-        <section>
+        <section data-aos="fade-up" data-aos-duration="2000">
             <div class="container">
                 <div class="main row">
                     <div class="col-lg-4 col-12 d-flex justify-content-around titularWeb">
                         <div>
-                            <img style="width: 70%; padding: 20px;" src="medios/icon_pagweb.png" alt="">
+                            <img style="width: 70%; padding: 20px;" src="medios/icon_pagweb.png"
+                                alt="icono paginas web">
                             <h2>Paginas Web</h2>
                         </div>
                     </div>
                     <div class="col-lg-4 col-12 d-flex justify-content-around titularWeb">
                         <div>
-                            <img style="width: 70%; padding: 20px;" src="medios/icon_publicidad.png" alt="">
+                            <img style="width: 70%; padding: 20px;" src="medios/icon_publicidad.png"
+                                alt=" icono de ideas">
                             <h2>Publicidad</h2>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-12 d-flex justify-content-around titularWeb">
                         <div>
-                            <img style="width: 70%; padding: 20px;" src="medios/icon_ecommerce.png" alt="">
+                            <img style="width: 70%; padding: 20px;" src="medios/icon_ecommerce.png"
+                                alt=" icono de carro de compra">
                             <h2>E-commerce</h2>
                         </div>
                     </div>
@@ -128,9 +139,9 @@
                             <h1>Proyectos</h1>
                         </div>
                         <div class="textoDescriptivo">
-                            <p>Somos una empresa, dedicada a satisfacer las necesidades a nivel Digital y Tecnológico,
-                                nuestro objetivo es agregar
-                                valor y exposición creativa en cada uno de nuestros trabajo cumpleindo nuestras metas.
+                            <p>En base a la definición de las necesidades de cada empresa, elaboramos sitios web con
+                                altos estándares, incorporando las tecnologías y los medios de interactividad que
+                                cumplan con los objetivos de nuestros clientes.
                             </p>
                         </div>
                     </div>
@@ -140,42 +151,52 @@
             <div class="container">
                 <div class="main row">
                     <div class="col-lg-4 col-12 d-flex justify-content-around">
-                        <div>
-                            <img style="width: 100%; padding: 20px;" src="medios/proyecto1.png" alt="">
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            data-aos-duration="1500">
+                            <img style="width: 100%; padding: 20px;" src="medios/proyecto1.png"
+                                alt="foto producto de pagina web tecnológicas">
                         </div>
                     </div>
                     <div class="col-lg-4 col-12 d-flex justify-content-around">
-                        <div>
-                            <img style="width: 100%; padding: 20px;" src="medios/proyecto2.png" alt="">
+                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                            <img style="width: 100%; padding: 20px;" src="medios/proyecto2.png"
+                                alt="foto producto de pagina web ambiental">
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-12 d-flex justify-content-around">
-                        <div>
-                            <img style="width: 100%; padding: 20px;" src="medios/proyecto3.png" alt="">
+                        <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            data-aos-duration="1500">
+                            <img style="width: 100%; padding: 20px;" src="medios/proyecto3.png"
+                                alt="foto producto de pagina web personal">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section>
+        <section data-aos="flip-down" data-aos-duration="3000">
             <div class="container">
                 <div class="main row">
                     <div class="col-lg-4 col-12 d-flex justify-content-around">
-                        <div>
-                            <img style="width: 100%; padding: 20px;" src="medios/proyecto4.png" alt="">
+                        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            data-aos-duration="1500">
+                            <img style="width: 100%; padding: 20px;" src="medios/proyecto4.png"
+                                alt="foto producto de pagina web de fotografías">
                         </div>
                     </div>
                     <div class="col-lg-4 col-12 d-flex justify-content-around">
-                        <div>
-                            <img style="width: 100%; padding: 20px;" src="medios/proyecto5.png" alt="">
+                        <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                            <img style="width: 100%; padding: 20px;" src="medios/proyecto5.png"
+                                alt="foto producto de pagina web de matrimonios">
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-12 d-flex justify-content-around">
-                        <div>
-                            <img style="width: 100%; padding: 20px;" src="medios/proyecto6.png" alt="">
+                        <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                            data-aos-duration="1500">
+                            <img style="width: 100%; padding: 20px;" src="medios/proyecto6.png"
+                                alt="foto producto de pagina web de moda">
                         </div>
                     </div>
                 </div>
@@ -205,22 +226,26 @@
                 <div class="main row">
                     <div class="col-lg-3 col-12 d-flex justify-content-around align-self-center">
                         <div>
-                            <img style="width: 100%; padding: 20px;" src="medios/marca_puma.png" alt="">
+                            <img style="width: 100%; padding: 20px;" src="medios/marca_puma.png"
+                                alt="marca de zapatos y ropa">
                         </div>
                     </div>
                     <div class="col-lg-3 col-12 d-flex justify-content-around align-self-center">
                         <div>
-                            <img style="width: 100%; padding: 20px;" src="medios/marca_pepsi.png" alt="">
+                            <img style="width: 100%; padding: 20px;" src="medios/marca_pepsi.png"
+                                alt="marca de bebidas">
                         </div>
                     </div>
                     <div class="col-lg-3 col-12 d-flex justify-content-around align-self-center">
                         <div>
-                            <img style="width: 100%; padding: 20px;" src="medios/marca_nintendo.png" alt="">
+                            <img style="width: 100%; padding: 20px;" src="medios/marca_nintendo.png"
+                                alt="marca de video juegos">
                         </div>
                     </div>
                     <div class="col-lg-3 col-12 d-flex justify-content-around align-self-center">
                         <div>
-                            <img style="width: 100%; padding: 20px;" src="medios/marca_burger.png" alt="">
+                            <img style="width: 100%; padding: 20px;" src="medios/marca_burger.png"
+                                alt="marca de comida">
                         </div>
                     </div>
                 </div>
@@ -229,9 +254,10 @@
     </main>
 
 
-<!--CONTACTANOS-->
+    <!--CONTACTANOS-->
 
     <main class="backgroundGris">
+
         <section>
             <div class="container">
                 <div class="main row">
@@ -246,50 +272,71 @@
                     </div>
         </section>
 
-        <section>
-            <form action="" method="">
-                <label for=""> Nombre y Apellido </label>
-                <input type="text">
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4 mt-1">
+                    <div class="col-lg-6 ">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.9810597896853!2d-70.61517868480067!3d-33.44979998077411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf859b715f8f%3A0x29627696c930252d!2sAv.%20Manuel%20Montt%202406%2C%207770195%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1689270868121!5m2!1ses!2scl"
+                            style="border:0; width: 100%; height: 384px;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
 
-                <label for="">Mail</label>
-                <input type="email" name="" id="">
+                    <div class="col-lg-6">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row gy-4">
+                                <div class="col-lg-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Nombre"
+                                        required>
+                                </div>
+                                <div class="col-lg-6 form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"
+                                    required></textarea>
+                            </div>
+                            <div class="text-center"><button type="submit">Enviar</button></div>
+                        </form>
+                    </div>
+                </div>
 
-                <p>Mensaje</p>
-                <textarea name="" id="" cols="55" rows="10"></textarea>
-
-                <input type="button" value=" Enviar ">
-
+            </div>
         </section>
 
-        <Section>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.981060073122!2d-70.61556492504494!3d-33.449799973389766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf859b715f8f%3A0x29627696c930252d!2sAv.%20Manuel%20Montt%202406%2C%207770195%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1683672744846!5m2!1ses!2scl"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </Section>
+
     </main>
 
 
+    <!--FOOTER-->
 
 
 
+    <footer class="backgroundFoo">
+        <section>
+            <div class="container">
+                <div class="main row">
+                    <div class="col-lg-12 col-12">
+                        <div>
+                            <p>Nuestras Redes</p>
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com" target="_blank"> <img src="medios/facebook.png"
+                                    alt=" red social facebook">
+                                <a href="https://www.instagram.com" target="_blank"> <img src="medios/intagram.png"
+                                        alt="red social de fotos instagram">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-
-
-
-
-
-<!--FOOTER-->
-
-
-
-    <footer>
-        <div>
-            <p>Nuestras Redes</p>
-            <a href="https://www.facebook.com" target="_blank"> <img src="medios/facebook.png" alt="">
-                <a href="https://www.instagram.com" target="_blank"> <img src="medios/intagram.png" alt="">
-        </div>
+        </section>
 
     </footer>
 
@@ -298,6 +345,14 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
 
+    <!--AOS-->
+
+    <script>
+        AOS.init();
+    </script>
 </body>
+
+
+
 
 </html>

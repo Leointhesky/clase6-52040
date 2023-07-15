@@ -2,6 +2,7 @@
 
 .backgroundGris {
     background-color: rgb(233, 233, 233);
+    padding: 50px 0;
 
     h1 {
         color: #FF4E00;
@@ -26,6 +27,7 @@
 
 .backgroundNar {
     background-color: rgb(255, 77, 0);
+    padding: 50px 0;
 
 
 }
@@ -43,7 +45,7 @@
     color: rgb(255, 255, 255);
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 .titularWeb {
@@ -55,32 +57,36 @@
 
 }
 
+//*CONTACTOS*//
 
+.contact .php-email-form {
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    font-family: "Fira Sans", sans-serif;
+}
 
-
-
-
-
+.contact .php-email-form .form-group {
+    padding-bottom: 20px;
+}
 
 
 //*FOOTER*//
 
-footer div {
-    background-color: rgb(201, 201, 201);
+.backgroundFoo {
+    background-color: rgb(87, 87, 87);
+  
+  }
+  
+  footer div {
     display: flex;
-    flex-direction: row;
+    padding: 3px 0px;
     justify-content: flex-end;
-    align-items: center;
-    padding: 10px 0px;
-
-
-    p {
-        color: #ffffff;
-    }
-
-    img {
-        width: 50px;
-    }
-
-
-}
+    font-family: "Fira Sans", sans-serif;
+  }
+  footer div p {
+    color: #ffffff;
+  }
+  footer div img {
+    width: 50px;
+  }
